@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.checking.MainActivity"
+     >
+    
+    <item
+        android:id="@+id/indicator"
+        android:orderInCategory="1"
+        android:title=""
+        app:showAsAction="ifRoom"
+         />
+    <item
+        android:id="@+id/accept"   
+        android:orderInCategory="1"
+        android:title="@string/accept"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/notaccept"
+        android:orderInCategory="1"
+        android:title="@string/notaccept"
+        app:showAsAction="never"/>
+</menu>

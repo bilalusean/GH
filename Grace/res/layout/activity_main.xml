@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECF6CE" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="84dp"
+        android:gravity="center"
+        android:text="GRACE ILLAM"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FF4000"
+        android:textSize="25sp" />
+    <TextView
+        android:id="@+id/textView2" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="124dp"
+        android:gravity="center"
+        android:text="Trust in good... Best Stands..."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#585858"
+        android:textSize="10sp" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:ems="10"
+        android:hint="mobile number"
+        android:gravity="center" >
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:gravity="center"
+        android:text="Login"
+        android:background="#0080FF" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:textColor="#FF0000" />
+
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ECF6CE" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Terms &amp; Conditions" 
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF4000" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        android:text="1.Don't waste food \n\n2. Come at right time \n\n3. Before you inform, If you cancel Food\n\n4.Don't waste food \n\n5. Come at right time \n\n6. Before you inform, If you cancel Food"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="49dp"
+        android:text="Agree"
+        android:background="#0080FF" />
+
+</RelativeLayout>
